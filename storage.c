@@ -57,11 +57,25 @@ static void initStorage(int x, int y) {
 //get password input and check if it is correct for the cell (x,y)
 //int x, int y : cell for password check
 //return : 0 - password is matching, -1 - password is not matching
-static int inputPasswd(int x, int y) {
+static int inputPasswd(int x, int y) { 
+
+char passwd[4];
+
+int main () { 
+char pwEntered [4] ;
+
+printf ( "Enter a password : ");
+scanf ("%s", pwEntered );
+
+if (strcmp (passwd , pwEntered)== 0 ){
+//put out the box and print the word of it }
+else printf ("You entered a wrong password : (\n");
+}
+	
 	
 }
 
-
+}
 
 
 
